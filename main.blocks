@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="9)!$XBCk219OgcR[W*-L">temp</variable><variable id="lB2UbXA![04gq!=/i7P$">UVi</variable></variables><block type="pxt-on-start" id="=9$9]Qt-s$/rNCCPdvg8" x="0" y="0"><statement name="HANDLER"><block type="device_print_message" id="K=zmVJu{Is]4r_=$wuT6"><value name="text"><shadow type="text" id="]YfQX9,gX_#*DD0Krbqw"><field name="TEXT">Hello!</field></shadow></value></block></statement></block><block type="device_forever" id="iyM)LY7DgJY)pj62XH:P" x="292" y="-4"><statement name="HANDLER"><block type="variables_set" id="Y$h%;v.pjkw*Q`Q[_UDZ"><field name="VAR" id="9)!$XBCk219OgcR[W*-L">temp</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="I9{dtHf(6@_*4lD,r:|/"></block></value><next><block type="device_show_number" id="h@|?7jr9ew^sDRdER#92"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="=Vh[47p*N1=H)A2vVHky"><field name="VAR" id="9)!$XBCk219OgcR[W*-L">temp</field></block></value><next><block type="device_pause" id="@2IS:W8VL=F:(Bwr8-_z"><value name="pause"><shadow type="timePicker" id="i*A1#FA(W%.Z8q9UR8ux"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="C0XaqTKU$;I!ky5(INiC"><field name="LEDS">`
+        . . . . # 
+        . . . # . 
+        . . # . . 
+        . # . . . 
+        # . . . .
+        `</field><next><block type="variables_set" id="FrA8ri,#|S$mb}S/{!_R"><field name="VAR" id="lB2UbXA![04gq!=/i7P$">UVi</field><value name="VALUE"><shadow type="math_number" id="rmT:B]HTFwBmQ4Wtt$4="><field name="NUM">0</field></shadow></value><next><block type="device_show_number" id="[3_3d/Si!5pQ1UgW;a,Z"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="sS,Ucdz|Loc%x|dH[fS~"><field name="VAR" id="lB2UbXA![04gq!=/i7P$">UVi</field></block></value><next><block type="device_show_leds" id="y._4c62b{4wz8B:NklAk"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
